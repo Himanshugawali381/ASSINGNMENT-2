@@ -1,0 +1,15 @@
+// Write a Java program to show parameterized constructor 
+public class q3 {
+    
+
+    int number;
+
+    q3(int num) {
+        number = num;
+    }
+
+    public static void main(String[] args) {
+        q3 obj = new q3(10);
+        System.out.println("Number = " + obj.number);
+    }
+}
