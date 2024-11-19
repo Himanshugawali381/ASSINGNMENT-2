@@ -1,5 +1,5 @@
 //Write a program to demonstrate use of 'this' keyword
-//public class w15 {
+public class w15 {
     public static void main(String[] args) {
         DemoThis obj = new DemoThis(10);
         obj.show();
